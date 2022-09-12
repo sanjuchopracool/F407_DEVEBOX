@@ -57,6 +57,16 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define LED_ON_BOARD_Pin GPIO_PIN_1
+#define LED_ON_BOARD_GPIO_Port GPIOA
+#define FLASH_CS_Pin GPIO_PIN_15
+#define FLASH_CS_GPIO_Port GPIOA
+#define FLASH_SCK_Pin GPIO_PIN_3
+#define FLASH_SCK_GPIO_Port GPIOB
+#define FLASH_MISO_Pin GPIO_PIN_4
+#define FLASH_MISO_GPIO_Port GPIOB
+#define FLASH_MOSI_Pin GPIO_PIN_5
+#define FLASH_MOSI_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
